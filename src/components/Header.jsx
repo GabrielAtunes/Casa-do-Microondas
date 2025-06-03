@@ -1,9 +1,9 @@
 import React from "react";
-import logo from "../assets/logo.jpg"; 
+import logo from "../assets/logo.jpg";
 
 const Header = () => {
   return (
-    <header className="bg-orange-500 text-white shadow-md">
+    <header className="fixed top-0 left-0 w-full bg-orange-500 text-white shadow-md z-50">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <div className="flex items-center space-x-2">

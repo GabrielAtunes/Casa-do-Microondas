@@ -3,7 +3,7 @@ import image from "../assets/hero-image.jpeg";
 
 const HeroSection = () => {
   return (
-    <section className="bg-gray-50 py-16" id="hero">
+    <section className="pt-20 bg-gray-50 py-16" id="hero">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         {/* Texto principal */}
         <div className="md:w-1/2 mb-8 md:mb-0">
