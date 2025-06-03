@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../assets/hero-image.jpeg";
 
 const HeroSection = () => {
   return (
@@ -23,7 +24,7 @@ const HeroSection = () => {
         {/* Imagem ilustrativa */}
         <div className="md:w-1/2 flex justify-center">
           <img
-            src="/hero-image.png" // Troque pela imagem real ou ícone
+            src={image}
             alt="Micro-ondas em manutenção"
             className="max-w-sm w-full h-auto"
           />

@@ -1,12 +1,18 @@
 import React from "react";
+import eletrolux from "../assets/eletrolux.png";
+import brastemp from "../assets/brastemp.png";
+import lg from "../assets/lg.svg";
+import samsung from "../assets/samsung.png";
+import panasonic from "../assets/panasonic.png";
+import consul from "../assets/consul.png";
 
 const brands = [
-  { name: "Electrolux", logo: "/brands/electrolux.png" },
-  { name: "Brastemp", logo: "/brands/brastemp.png" },
-  { name: "LG", logo: "/brands/lg.png" },
-  { name: "Samsung", logo: "/brands/samsung.png" },
-  { name: "Panasonic", logo: "/brands/panasonic.png" },
-  { name: "Consul", logo: "/brands/consul.png" },
+  { name: "Electrolux", logo: eletrolux },
+  { name: "Brastemp", logo: brastemp },
+  { name: "LG", logo: lg },
+  { name: "Samsung", logo: samsung },
+  { name: "Panasonic", logo: panasonic },
+  { name: "Consul", logo: consul },
 ];
 
 const BrandsSection = () => {
@@ -26,7 +32,6 @@ const BrandsSection = () => {
               <img
                 src={brand.logo}
                 alt={brand.name}
-                className="h-12 grayscale hover:grayscale-0 transition duration-300 ease-in-out"
               />
             </div>
           ))}
