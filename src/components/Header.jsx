@@ -17,11 +17,17 @@ const Header = () => {
 
         {/* Navegação */}
         <nav className="hidden md:flex space-x-6 text-sm">
-          <a href="#servicos" className="hover:underline">
-            Serviços
+          <a href="#localizacoes" className="hover:underline">
+            Localizações
+          </a>
+          <a href="#entrega" className="hover:underline">
+            Entrega
           </a>
           <a href="#marcas" className="hover:underline">
             Marcas
+          </a>
+          <a href="#servicos" className="hover:underline">
+            Serviços
           </a>
           <a href="#contato" className="hover:underline">
             Contato

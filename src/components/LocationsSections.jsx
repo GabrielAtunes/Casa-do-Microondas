@@ -19,10 +19,10 @@ const branches = [
 
 const LocationsSection = () => {
   return (
-    <section id="filiais" className="bg-gray-100 py-16 px-6">
+    <section id="localizacoes" className="bg-gray-100 py-16 px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-orange-600 mb-12">
-          Nossas Filiais
+          Nossas localizacoes
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           {branches.map((branch, index) => (
