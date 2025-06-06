@@ -6,6 +6,7 @@ import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
 import Locations from '../components/LocationsSections'
 import Delivery from '../components/DeliverySection'
+import GallerySection from '../components/GallerySection'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Delivery />
       <BrandsSection />
       <ServicesSection />
+      <GallerySection />
       <ContactForm />
       <Footer />
     </>

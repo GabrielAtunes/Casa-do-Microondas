@@ -32,6 +32,7 @@ const BrandsSection = () => {
               <img
                 src={brand.logo}
                 alt={brand.name}
+                title={"Logo da " + brand.name}
               />
             </div>
           ))}

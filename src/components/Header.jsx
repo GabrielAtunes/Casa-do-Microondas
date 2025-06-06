@@ -32,17 +32,11 @@ const Header = () => {
           <a href="#contato" className="hover:underline">
             Contato
           </a>
+          <a href="#gallery" className="hover:underline">
+            Estrutura
+          </a>
         </nav>
 
-        {/* Botão de Ação */}
-        <div>
-          <a
-            href="#conserto-rapido"
-            className="bg-white text-orange-600 font-bold py-2 px-4 rounded-md hover:bg-orange-100 transition"
-          >
-            Conserto em 30 Minutos
-          </a>
-        </div>
       </div>
     </header>
   );
